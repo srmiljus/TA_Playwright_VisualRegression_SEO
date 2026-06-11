@@ -2,7 +2,7 @@
 # 🎭 Playwright Visual & SEO Test Suite
 
 This repository contains an end-to-end automated test suite written in **Playwright** with **TypeScript**.
-The suite validates key user-facing functionality on the [Netlify website](https://www.netlify.com), including:
+The suite validates key user-facing functionality on a public marketing website(https://www.netlify.com), including:
 - Newsletter form validation
 - Sitemap and SEO checks
 - Broken link (404) detection
@@ -30,8 +30,8 @@ All tests are fully integrated with **GitHub Actions CI**, and each pipeline run
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/srmiljus/NetlifyTSPlaywright
-   cd NetlifyTSPlaywright
+   git clone https://github.com/srmiljus/TA_Playwright_VisualRegression_SEO
+   cd TA_Playwright_VisualRegression_SEO
    ```
 
 2. **Install dependencies**  
@@ -135,7 +135,7 @@ The Playwright HTML report is:
 ## 📁 Folder Structure
 
 ```
-NetlifyTSPlaywright/
+TA_Playwright_VisualRegression_SEO/
 │
 ├── .github/workflows/         # GitHub Actions workflow config
 ├── helpers/                   # Constants and sitemap parsing
