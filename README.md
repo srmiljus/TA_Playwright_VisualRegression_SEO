@@ -1,5 +1,5 @@
 
-# 🎭 NetlifyTSPlaywright Test Suite
+# 🎭 Playwright Visual & SEO Test Suite
 
 This repository contains an end-to-end automated test suite written in **Playwright** with **TypeScript**.
 The suite validates key user-facing functionality on the [Netlify website](https://www.netlify.com), including:
