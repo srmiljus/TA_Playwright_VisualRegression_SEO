@@ -1,7 +1,16 @@
-# Playwright artifacts
-html-report/
+# Dependencies
+node_modules/
+
+# Playwright output
 test-results/
-*.png
-*.webm
-*.zip
-*.md
+html-report/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
